@@ -22,41 +22,38 @@
 
    
         <!-- Your content goes here -->
-       <div class="container-fluid">
+      <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<nav>
-				<ul class="pagination">
-					<li class="page-item">
-						<a class="page-link" href="#">Previous</a>
+			<div class="tabbable" id="tabs-935887">
+				<ul class="nav nav-tabs">
+					<li class="nav-item">
+						<a class="nav-link active" href="#tab1" data-toggle="tab">Section 1</a>
 					</li>
-					<li class="page-item">
-						<a class="page-link" href="#">1</a>
-					</li>
-					<li class="page-item">
-						<a class="page-link" href="#">2</a>
-					</li>
-					<li class="page-item">
-						<a class="page-link" href="#">3</a>
-					</li>
-					<li class="page-item">
-						<a class="page-link" href="#">4</a>
-					</li>
-					<li class="page-item">
-						<a class="page-link" href="#">5</a>
-					</li>
-					<li class="page-item">
-						<a class="page-link" href="#">Next</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#tab2" data-toggle="tab">Section 2</a>
 					</li>
 				</ul>
-			</nav>
-			<div class="carousel slide" id="carousel-925788">
+				<div class="tab-content">
+					<div class="tab-pane active" id="panel-786949">
+						<p>
+							I'm in Section 1.
+						</p>
+					</div>
+					<div class="tab-pane" id="tab2">
+						<p>
+							Howdy, I'm in Section 2.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel slide" id="carousel-454812">
 				<ol class="carousel-indicators">
-					<li data-slide-to="0" data-target="#carousel-925788" class="active">
+					<li data-slide-to="0" data-target="#carousel-454812" class="active">
 					</li>
-					<li data-slide-to="1" data-target="#carousel-925788">
+					<li data-slide-to="1" data-target="#carousel-454812">
 					</li>
-					<li data-slide-to="2" data-target="#carousel-925788">
+					<li data-slide-to="2" data-target="#carousel-454812">
 					</li>
 				</ol>
 				<div class="carousel-inner">
@@ -93,7 +90,7 @@
 							</p>
 						</div>
 					</div>
-				</div> <a class="carousel-control-prev" href="#carousel-925788" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-925788" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+				</div> <a class="carousel-control-prev" href="#carousel-454812" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-454812" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
 			</div>
 		</div>
 	</div>
@@ -104,16 +101,23 @@
 					LayoutIt! <small>Interface Builder for Bootstrap</small>
 				</h1>
 			</div>
-			<div class="jumbotron card card-block">
-				<h2>
-					Hello, world!
-				</h2>
-				<p>
-					This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-				</p>
-				<p>
-					<a class="btn btn-primary btn-large" href="#">Learn more</a>
-				</p>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="jumbotron">
+						<h2>
+							Hello, world!
+						</h2>
+						<p>
+							This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+						</p>
+						<p>
+							<a class="btn btn-primary btn-large" href="#">Learn more</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" class="rounded" />
+				</div>
 			</div>
 		</div>
 	</div>
