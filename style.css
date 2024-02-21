@@ -54,3 +54,15 @@
   max-width: 700px;
   max-height: 930px;
 }
+.stars-image{
+  width: 100%;
+  height: auto;
+  max-width: 620px;
+  max-height: 100px;
+}
+.tomato-image{
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 200px;
+}
