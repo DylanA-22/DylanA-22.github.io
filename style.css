@@ -1,24 +1,11 @@
-.center{
-    height: 300px;
-    width: 600px;
-}
 
-.carousel-item {
-    height: 300px;
-    width: 600px;
 
-}
-.carousel-item {
-    height: 300px;
-    width: 600px;
+.carousel-image {
+    height: 370px;
+    width: 630px;
 
 }
 
-.carousel-item {
-    height: 300px;
-    width: 600px;
-
-}
 .carousel-caption {
     font-size: 100px;
 }
