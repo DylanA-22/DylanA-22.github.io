@@ -53,6 +53,12 @@
   max-width: 350px;
   max-height: 675px;
 }
+.kate-image{
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  max-height: 675px;
+}
 .hulk-image{
   width: 100%;
   height: auto;
