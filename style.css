@@ -47,6 +47,12 @@
   max-width: 350px;
   max-height: 670px;
 }
+.kb-image{
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  max-height: 670px;
+}
 .pool-image{
   width: 100%;
   height: auto;
